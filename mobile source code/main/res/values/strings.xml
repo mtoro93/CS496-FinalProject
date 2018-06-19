@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">HybridProject</string>
+
+
+    <!-- Main Buttons-->
+    <string name="main_boardgame_button">Board Games</string>
+
+    <string name="main_customers_button">Customers</string>
+
+    <string name="main_add_boardgame_button">Add Board Game</string>
+
+    <string name="main_add_customer_button">Add Customer</string>
+
+    <!-- BG Activity Strings -->
+    <string name="no_boardgames">No BoardGames found.</string>
+
+    <!-- Add Board Game Activity Strings -->
+    <string name="add_bg_activity_title">Add Board Game</string>
+    <string name="add_bg_title">Title:</string>
+    <string name="add_bg_description">Description:</string>
+    <string name="add_bg_price">Price:</string>
+    <string name="add_bg_stock">Stock:</string>
+    <string name="add_bg_submit_button">Submit</string>
+
+    <!-- Edit Board Game Activity Strings -->
+    <string name="edit_bg_activity_title">Edit Board Game</string>
+    <string name="edit_bg_title">Title:</string>
+    <string name="edit_bg_description">Description:</string>
+    <string name="edit_bg_price">Price:</string>
+    <string name="edit_bg_stock">Stock:</string>
+    <string name="edit_bg_submit_button">Submit</string>
+
+    <!-- BG LIST STRINGS -->
+    <string name="bg_list_price">Price:</string>
+    <string name="bg_list_stock">Stock:</string>
+    <string name="bg_list_edit_button">EDIT</string>
+    <string name="bg_list_delete_button">DELETE</string>
+
+    <!-- BG Purchase LIST STRINGS -->
+    <string name="purchase_bg_list_price">Price:</string>
+    <string name="purchase_bg_list_stock">Stock:</string>
+    <string name="purchase_bg_list_purchase_button">Purchase</string>
+
+    <!-- BG Return LIST STRINGS -->
+    <string name="return_bg_list_price">Price:</string>
+    <string name="return_bg_list_stock">Stock:</string>
+    <string name="return_bg_list_return_button">RETURN</string>
+
+    <!-- Customer Activity Strings -->
+    <string name="no_customers">No Customers found.</string>
+
+    <!-- Add Customer Activity Strings -->
+    <string name="add_customer_activity_title">Add Customer</string>
+    <string name="add_customer_firstName">First Name:</string>
+    <string name="add_customer_lastName">Last Name:</string>
+    <string name="add_customer_money">Money:</string>
+    <string name="add_customer_capacity">Capacity:</string>
+    <string name="add_customer_submit_button">Submit</string>
+
+    <!-- Edit Customer Activity Strings -->
+    <string name="edit_customer_activity_title">Edit Customer</string>
+    <string name="edit_customer_firstName">First Name:</string>
+    <string name="edit_customer_lastName">Last Name:</string>
+    <string name="edit_customer_money">Money:</string>
+    <string name="edit_customer_capacity">Capacity:</string>
+    <string name="edit_customer_submit_button">Submit</string>
+
+
+    <!-- CUSTOMER LIST STRINGS -->
+    <string name="customer_list_money">Money:</string>
+    <string name="customer_list_capacity">Capacity:</string>
+    <string name="customer_list_edit_button">EDIT</string>
+    <string name="customer_list_delete_button">DELETE</string>
+    <string name="customer_list_purchase_button">PURCHASE</string>
+    <string name="customer_list_return_button">RETURN</string>
+    <string name="customer_list_empty_list">None</string>
+    <string name="customer_list_inventory">Inventory:</string>
+
+    <!-- API Strings -->
+    <string name="API_boardgame_address">http://silicon-perigee-191721.appspot.com/boardgame</string>
+    <string name="API_customer_address">http://silicon-perigee-191721.appspot.com/customer</string>
+
+    <!-- Status Codes -->
+    <string name="http_status_code_201">201</string>
+    <string name="http_status_code_204">204</string>
+</resources>

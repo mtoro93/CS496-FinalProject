@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.hybridproject.AddBoardGameActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:textSize="20sp"
+        android:text="@string/add_bg_activity_title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:labelFor="@id/add_bg_title_input"
+        android:text="@string/add_bg_title"/>
+
+    <EditText
+        android:id="@+id/add_bg_title_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_bg_description"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:labelFor="@id/add_bg_description_input"/>
+
+    <EditText
+        android:id="@+id/add_bg_description_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_bg_price"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:labelFor="@id/add_bg_price_input"/>
+
+    <EditText
+        android:id="@+id/add_bg_price_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:inputType="number"
+        android:imeOptions="actionDone"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_bg_stock"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:labelFor="@id/add_bg_stock_input"/>
+
+    <EditText
+        android:id="@+id/add_bg_stock_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:inputType="number"
+        android:imeOptions="actionDone"
+        />
+    <Button
+        android:id="@+id/add_bg_submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:text="@string/add_bg_submit_button"/>
+</LinearLayout>

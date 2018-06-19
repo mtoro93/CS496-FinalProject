@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/customer_list_firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_margin="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+    <TextView
+        android:id="@+id/customer_list_lastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_margin="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/customer_list_firstName" />
+    <TextView
+        android:id="@+id/customer_list_inventory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="4dp"
+        android:text="@string/customer_list_inventory"
+        app:layout_constraintTop_toBottomOf="@id/customer_list_firstName"
+        app:layout_constraintLeft_toLeftOf="@id/customer_list_firstName" />
+
+    <TextView
+        android:id="@+id/customer_list_empty_bgList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_margin="4dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toBottomOf="@id/customer_list_inventory"
+        app:layout_constraintLeft_toLeftOf="@id/customer_list_firstName"/>
+
+    <ListView
+        android:id="@+id/customer_list_bgList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="4dp"
+        app:layout_constraintTop_toBottomOf="@id/customer_list_inventory" />
+
+    <TextView
+        android:id="@+id/customer_list_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="48dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/customer_list_edit_button"
+        android:text="@string/customer_list_money"/>
+    <TextView
+        android:id="@+id/customer_list_money_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toRightOf="@id/customer_list_money"
+        app:layout_constraintRight_toLeftOf="@id/customer_list_edit_button"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/customer_list_capacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="64dp"
+        android:layout_marginRight="48dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/customer_list_delete_button"
+        android:text="@string/customer_list_capacity"/>
+    <TextView
+        android:id="@+id/customer_list_capacity_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/customer_list_delete_button"
+        app:layout_constraintLeft_toRightOf="@id/customer_list_capacity" />
+    <Button
+        android:id="@+id/customer_list_edit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="@string/customer_list_edit_button"/>
+    <Button
+        android:id="@+id/customer_list_delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintTop_toBottomOf="@id/customer_list_edit_button"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="@string/customer_list_delete_button"/>
+
+    <Button
+        android:id="@+id/customer_list_purchase_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintTop_toBottomOf="@id/customer_list_delete_button"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="@string/customer_list_purchase_button"/>
+    <Button
+        android:id="@+id/customer_list_return_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintTop_toBottomOf="@id/customer_list_purchase_button"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="@string/customer_list_return_button"/>
+
+</android.support.constraint.ConstraintLayout>
